@@ -1,0 +1,5 @@
+To host files online
+ssh -p 443 -R 80:localhost:80 a.pinggy.io
+
+To delete the user
+del "%USERPROFILE%\.ssh\known_hosts"
