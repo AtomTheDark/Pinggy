@@ -3,3 +3,7 @@ ssh -p 443 -R 80:localhost:80 a.pinggy.io
 
 To delete the user
 del "%USERPROFILE%\.ssh\known_hosts"
+
+I have created a folder named admn in htdocs of xampp folder in the c drive
+You just have to put your files in there and run xampp apache server then using the above command pinggy you can ssh your folder to the internet
+by there you can host your files online
